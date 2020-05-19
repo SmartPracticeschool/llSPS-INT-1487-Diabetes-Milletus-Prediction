@@ -1,0 +1,67 @@
+<html>
+<head> 
+<title> Diabetes Milletus Prediction</title>
+<style>
+body
+		{
+			font-size:20px;
+			font-family: latoregular;
+			margin: 140px;
+			padding:60px;
+			background-image:url("https://us.123rf.com/450wm/katerynanovikova/katerynanovikova1808/katerynanovikova180800019/107624223-the-blue-ribbon-awareness-with-red-blood-drop-on-a-blue-background-world-diabetes-day-14-november-co.jpg?ver=6");
+		background-repeat: no-repeat;
+		background-size: cover;
+		}
+div 
+{ 
+  border: 10px solid grey;
+  background: lightgrey;
+  width: 450px;
+  padding: 30px;
+  font-family: 'latoregular';
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-top: 0px;
+}
+p.ridge 
+{border-style: ridge;}
+</style>
+</head>
+<body>
+<div>
+<h2> Diabetes Milletus Prediction </h2>
+<hr>
+<form action = "http://localhost:5000/login" method = "post">
+    <b> Pregnancies </b> 
+    <input type = "text" name ="preg"/> <br>
+    <br>
+    <b> Plasma </b> 
+    <input type = "text" name ="plas"/> <br>
+    <br>
+    <b> Blood Pressure </b> 
+    <input type = "text" name ="pres"/> <br>
+    <br>
+    <b> Skin Thickness </b> 
+    <input type = "text" name ="skin"/> <br>
+    <br>
+    <b> Insulin </b> 
+    <input type = "text" name ="insulin"/> <br>
+    <br>
+    <b> Blood Mass </b> 
+    <input type = "text" name ="mass"/> <br>
+    <br>
+    <b> Pedigree Function </b> 
+    <input type = "text" name ="pedi"/> <br>
+    <br>
+    <b> Age </b> 
+    <input type = "text" name ="age"/> <br>
+    <br>
+    <center><button> submit </button></center>
+</form>
+<center> <b>{{showcase}}</b> </center>
+</div>
+</body>
+</html>
+
